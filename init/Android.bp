@@ -1,0 +1,13 @@
+cc_library_static {
+    name: "libinit_cas",
+    include_dirs: [
+        "system/core/base/include",
+        "system/core/init",
+    ],
+    cflags: [
+        "-Wall",
+//      "-DBUILD_FOR_CMI",
+    ],
+    srcs: ["init_cas.cpp"],
+    recovery_available: true,
+}
