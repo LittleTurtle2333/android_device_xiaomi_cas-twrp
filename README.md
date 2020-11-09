@@ -42,7 +42,7 @@ export USE_CCACHE=1
 # 改变ccache缓存路径
 export CCACHE_DIR=~/.ccache
 # 生效
-source ~/bashrc
+source ~/.bashrc
 # 配置ccache大小
 ccache -M 50G
 ```
